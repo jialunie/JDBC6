@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 public interface BrandMapper {
-    List<Brand> selectAll();  //第二版
+    List<Brand> selectAll();  //第三版
 
     Brand selectById(int id);
 
