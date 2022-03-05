@@ -26,5 +26,6 @@ public class MyBatisDemo {
         sqlSession.close();
 
         System.out.println("pipi");
+        System.out.println("pipi");
     }
 }
