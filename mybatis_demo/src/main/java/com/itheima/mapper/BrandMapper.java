@@ -11,6 +11,7 @@ public interface BrandMapper {
 
     Brand selectById(int id); //master2
 
+
     List<Brand> selectByCondition(@Param("status") int status, @Param("companyName") String companyName, @Param("brandName") String brandName);
 
     List<Brand> selectByCondition(Map map);
