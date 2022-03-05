@@ -9,7 +9,7 @@ import java.util.Map;
 public interface BrandMapper {
     List<Brand> selectAll();  //第三版
 
-    Brand selectById(int id);
+    Brand selectById(int id); //hot-fix
 
     List<Brand> selectByCondition(@Param("status") int status, @Param("companyName") String companyName, @Param("brandName") String brandName);
 
