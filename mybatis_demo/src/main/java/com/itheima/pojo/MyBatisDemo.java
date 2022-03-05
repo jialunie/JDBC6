@@ -24,5 +24,7 @@ public class MyBatisDemo {
         System.out.println(users);
         //4. 释放资源
         sqlSession.close();
+
+        System.out.println("pipi");
     }
 }
